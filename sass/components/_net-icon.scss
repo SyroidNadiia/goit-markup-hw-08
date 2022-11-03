@@ -7,30 +7,51 @@
     padding: 0px;
 }
 
+.net__item--footer {
+    margin-right: 10px;
+}
+
 .net__link {
     display: flex;
     width: 44px;
     height: 44px;
     display: flex;
-    background-color: var(--white);
+    background-color: $white;
     border-radius: 50%;
     justify-content: center;
     align-items: center;
-    fill: #afb1b8;
+    fill: rgb(175, 177, 184);
 
-    transition: background-color 250ms var(--time-distribution-function);
+    transition: background-color 250ms $time-distribution-function;
 }
 
 .net__link:hover,
 .net__link:focus {
-    background-color: var(--accent-color);
+    background-color: $accent-color;
 }
 
 .net__link .net__icon {
-    transition: fill 250ms var(--time-distribution-function);
+    transition: fill 250ms $time-distribution-function;
 }
 
 .net__link:hover .net__icon,
 .net__link:focus .net__icon {
-    fill: var(--white);
+    fill: $white;
+}
+
+.net-list--footer {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0px;
+}
+
+.net__link--footer {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    fill: $white;
+
+    &:hover,
+    &:focus {
+    background-color: $accent-color;
+}
 }

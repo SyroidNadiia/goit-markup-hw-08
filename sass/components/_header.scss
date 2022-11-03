@@ -23,7 +23,7 @@
     padding-top: 32px;
     padding-bottom: 32px;
 
-    transition: color 250ms var(--time-distribution-function);
+    transition: color 250ms $time-distribution-function;
 }
 
 .header__link:hover,

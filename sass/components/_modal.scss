@@ -6,8 +6,8 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.2);
     opacity: 1;
-    transition: opacity 250ms var(--time-distribution-function),
-        visibility 250ms var(--time-distribution-function);
+    transition: opacity 250ms $time-distribution-function,
+        visibility 250ms $time-distribution-function;
 }
 
 .backdrop.is-hidden {
@@ -28,12 +28,12 @@
 
     width: 528px;
     height: 581px;
-    background-color: var(--white);
+    background-color: $white;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
 
-    transition: transform 250ms var(--time-distribution-function);
+    transition: transform 250ms $time-distribution-function;
     padding: 40px;
 }
 
@@ -45,7 +45,7 @@
     display: flex;
     border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    background-color: var(--white);
+    background-color: $white;
     justify-content: center;
     align-items: center;
     height: 30px;
