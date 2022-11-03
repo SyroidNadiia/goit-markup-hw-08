@@ -1,0 +1,23 @@
+.logo--header {
+    color: var(--title-text-color);
+    font-family: var(--secondary-font-family);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+.logo__accent {
+    color: var(--accent-color);
+}
+
+.logo--footer {
+    text-decoration: none;
+    color: var(--white);
+    font-family: var(--secondary-font-family);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    display: block;
+    margin-bottom: 20px;
+}

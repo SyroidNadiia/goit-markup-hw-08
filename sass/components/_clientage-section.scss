@@ -1,0 +1,30 @@
+.clientage__list {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding-left: 0px;
+    gap: 30px;
+}
+
+.clientage__item {
+    padding: 16px 32px;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    max-width: 170px;
+}
+
+.clientage__icon {
+    fill: rgba(175, 177, 184, 1);
+
+    transition: fill 250ms var(--time-distribution-function);
+}
+
+.clientage__item:hover,
+.clientage__item:focus {
+    border: 1px solid var(--accent-color);
+}
+
+.clientage__item:hover .clientage__icon,
+.clientage__item:focus .clientage__icon {
+    fill: var(--accent-color);
+}
