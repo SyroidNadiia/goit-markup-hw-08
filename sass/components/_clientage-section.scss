@@ -16,7 +16,7 @@
 
 .clientage__item {
     padding: 16px 32px;
-    border: 1px solid rgb(175, 177, 184);
+    border: 1px solid $clientage-background-color;
     border-radius: 4px;
     max-width: 170px;
     
@@ -27,7 +27,7 @@
 }
 
 .clientage__icon {
-    fill: rgba(175, 177, 184, 1);
+    fill: $clientage-background-color;
 
     transition: fill 250ms $time-distribution-function;
     

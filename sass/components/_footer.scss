@@ -33,7 +33,7 @@ footer {
 }
 
 .address__mail {
-    color: rgba(255, 255, 255, 0.6);
+    color: $footer-text-color;
     line-height: 1.71;
     font-style: normal;
     
@@ -44,7 +44,7 @@ footer {
 }
 
 .address__phone {
-    color: rgba(255, 255, 255, 0.6);
+    color: $footer-text-color;
     line-height: 1.71;
     font-style: normal;
 

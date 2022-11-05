@@ -341,7 +341,7 @@ summary {
 }
 
 body {
-  background-color: #ffffff;
+  background-color: rgb(255, 255, 255);
   color: #757575;
   font-family: Roboto, sans-serif;
   font-size: 14px;
@@ -387,7 +387,6 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-  display: block;
   padding-top: 32px;
   padding-bottom: 32px;
   display: -webkit-box;
@@ -474,7 +473,7 @@ img {
   border: none;
   margin-left: auto;
   margin-right: auto;
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   background-color: #2196f3;
   font-weight: 700;
   font-size: 16px;
@@ -532,7 +531,7 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button.secondary:hover, .button.secondary:focus {
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   background-color: #2196f3;
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
           box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -540,7 +539,7 @@ img {
 
 .button.secondary.active {
   padding: 6px 25px;
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   background-color: #2196f3;
 }
 
@@ -627,7 +626,7 @@ img {
   padding: 27px 0;
   font-weight: 700;
   text-transform: uppercase;
-  color: #ffffff;
+  color: rgb(255, 255, 255);
 }
 
 .examples__title {
@@ -666,7 +665,7 @@ footer {
 }
 
 .address__legal {
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   line-height: 1.71;
   font-style: normal;
 }
@@ -706,7 +705,7 @@ footer {
 .footer__net-text {
   font-weight: 700;
   text-transform: uppercase;
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   margin-bottom: 20px;
 }
 
@@ -848,7 +847,7 @@ footer {
   line-height: 1.88;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   max-width: 200px;
   cursor: pointer;
 }
@@ -916,7 +915,7 @@ footer {
 }
 
 .hero__title {
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -957,7 +956,7 @@ footer {
 }
 
 .logo--footer {
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   display: block;
   margin-bottom: 20px;
 }
@@ -992,7 +991,7 @@ footer {
           transform: translate(-50%, -50%) scale(1);
   width: 528px;
   height: 581px;
-  background-color: #ffffff;
+  background-color: rgb(255, 255, 255);
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -1012,7 +1011,7 @@ footer {
   display: flex;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  background-color: #ffffff;
+  background-color: rgb(255, 255, 255);
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -1048,7 +1047,7 @@ footer {
   width: 44px;
   height: 44px;
   display: flex;
-  background-color: #ffffff;
+  background-color: rgb(255, 255, 255);
   border-radius: 50%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -1071,7 +1070,7 @@ footer {
 
 .net__link:hover .net__icon,
 .net__link:focus .net__icon {
-  fill: #ffffff;
+  fill: rgb(255, 255, 255);
 }
 
 .net-list--footer {
@@ -1085,7 +1084,7 @@ footer {
 .net__link--footer {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
-  fill: #ffffff;
+  fill: rgb(255, 255, 255);
 }
 .net__link--footer:hover, .net__link--footer:focus {
   background-color: #2196f3;
@@ -1099,7 +1098,7 @@ footer {
   display: block;
   font-weight: 700;
   text-transform: uppercase;
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   margin-bottom: 20px;
 }
 
@@ -1139,14 +1138,14 @@ footer {
           justify-content: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   cursor: pointer;
   margin-left: 12px;
 }
 
 .subscription__icon {
   margin-left: 10px;
-  fill: #ffffff;
+  fill: rgb(255, 255, 255);
 }
 
 .subscription__form {
@@ -1163,7 +1162,7 @@ footer {
 }
 
 .team-members__item {
-  background-color: #ffffff;
+  background-color: rgb(255, 255, 255);
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -1249,15 +1248,15 @@ footer {
 }
 
 .works__exposition {
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   font-size: 18px;
   line-height: 1.56;
   padding: 63px 24px;
 }
 
 .works__caption {
-  background: #ffffff;
-  border: 1px solid #eeeeee;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(238, 238, 238);
 }
 
 .works__title {

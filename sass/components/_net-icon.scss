@@ -20,7 +20,7 @@
     border-radius: 50%;
     justify-content: center;
     align-items: center;
-    fill: rgb(175, 177, 184);
+    fill: $clientage-background-color;
 
     transition: background-color 250ms $time-distribution-function;
     
