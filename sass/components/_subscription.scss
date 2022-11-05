@@ -4,6 +4,10 @@
 
 .subscription__text {
     display: block;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $white;
+    margin-bottom: 20px;
 }
 
 .subscription__input {
@@ -18,13 +22,6 @@
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     padding: 15px 16px;
-}
-
-.subscription__text {
-    font-weight: 700;
-    text-transform: uppercase;
-    color: $white;
-    margin-bottom: 20px;
 }
 
 .subscription__button {

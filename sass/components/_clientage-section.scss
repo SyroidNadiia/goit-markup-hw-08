@@ -19,20 +19,21 @@
     border: 1px solid rgb(175, 177, 184);
     border-radius: 4px;
     max-width: 170px;
+    
+    &:hover,
+    &:focus {
+        border: 1px solid $accent-color;
+    }
 }
 
 .clientage__icon {
     fill: rgba(175, 177, 184, 1);
 
     transition: fill 250ms $time-distribution-function;
+    
+    .clientage__item:hover &,
+    .clientage__item:focus & {
+        fill: $accent-color;
+    }
 }
 
-.clientage__item:hover,
-.clientage__item:focus {
-    border: 1px solid $accent-color;
-}
-
-.clientage__item:hover .clientage__icon,
-.clientage__item:focus .clientage__icon {
-    fill: $accent-color;
-}

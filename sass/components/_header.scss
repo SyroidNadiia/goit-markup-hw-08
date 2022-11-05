@@ -24,11 +24,12 @@
     padding-bottom: 32px;
 
     transition: color 250ms $time-distribution-function;
-}
-
-.header__link:hover,
-.header__link:focus {
-    color: $accent-color;
+    
+    
+    &:hover,
+    &:focus {
+        color: $accent-color;
+    }
 }
 
 .header__item:not(:last-child) {

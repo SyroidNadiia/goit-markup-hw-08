@@ -23,12 +23,13 @@
     fill: rgb(175, 177, 184);
 
     transition: background-color 250ms $time-distribution-function;
+    
+    &:hover,
+    &:focus {
+        background-color: $accent-color;
+    }
 }
 
-.net__link:hover,
-.net__link:focus {
-    background-color: $accent-color;
-}
 
 .net__link .net__icon {
     transition: fill 250ms $time-distribution-function;

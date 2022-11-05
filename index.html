@@ -15,9 +15,9 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
+
   <body>
     <header class="header">
       <div class="header__container container">
@@ -451,51 +451,52 @@
           </button>
           <h4 class="user_data_title">Залиште свої дані, ми вам передзвонимо</h4>
 
-          <div class="form-field">
-            <label class="form-label" for="user_name">Ім'я</label>
-            <div class="form-control">
-              <input class="form-input" type="text" name="user_name" id="user_name" autofocus />
+          <div class="form__field">
+            <label class="form__label" for="user_name">Ім'я</label>
+            <div class="form__control">
+              <input class="form__input" type="text" name="user_name" id="user_name" autofocus />
               <svg class="phone-icon" width="18px" height="18px">
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
             </div>
           </div>
 
-          <div class="form-field">
-            <label class="form-label" for="user_tel">Телефон</label>
-            <div class="form-control">
-              <input class="form-input" type="tel" name="user_tel" id="user_tel" />
+          <div class="form__field">
+            <label class="form__label" for="user_tel">Телефон</label>
+            <div class="form__control">
+              <input class="form__input" type="tel" name="user_tel" id="user_tel" />
               <svg class="phone-icon" width="18px" height="18px">
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
             </div>
           </div>
 
-          <div class="form-field">
-            <label class="form-label" for="user_mail">Пошта</label>
-            <div class="form-control">
-              <input class="form-input" type="email" name="user_mail" id="user_mail" />
+          <div class="form__field">
+            <label class="form__label" for="user_mail">Пошта</label>
+            <div class="form__control">
+              <input class="form__input" type="email" name="user_mail" id="user_mail" />
               <svg class="phone-icon" width="18px" height="18px">
                 <use href="./images/icons.svg#icon-email"></use>
               </svg>
             </div>
           </div>
 
-          <div class="form-field">
-            <label class="form-label" for="user_comment">Коментар</label>
+          <div class="form__field">
+            <label class="form__label" for="user_comment">Коментар</label>
             <textarea
-              class="form-textarea"
+              class="form__textarea"
               name="user_comment"
               id="user_comment"
               placeholder="Введіть текст"
             ></textarea>
           </div>
 
-          <div class="form-field-checkbox">
-            <label class="form-label-checkbox">
-              <input class="form-checkbox" type="checkbox" name="accept" value="accept" />
-              <span class="check-icon"></span>
-              Погоджуюся з розсилкою та приймаю <a href="#" class="form-contract">Умови договору</a>
+          <div class="form__field-checkbox">
+            <label class="form__label-checkbox">
+              <input class="form__checkbox" type="checkbox" name="accept" value="accept" />
+              <span class="form__check-icon"></span>
+              Погоджуюся з розсилкою та приймаю
+              <a href="#" class="form__contract">Умови договору</a>
             </label>
           </div>
 

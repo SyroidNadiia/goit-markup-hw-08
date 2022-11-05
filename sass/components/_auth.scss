@@ -21,6 +21,11 @@
     align-items: center;
 
     transition: color 250ms $time-distribution-function;
+    
+    &:hover,
+    &:focus {
+        color: $accent-color;
+    }
 }
 
 .auth__icon {
@@ -30,11 +35,6 @@
 
 .auth__item:not(:last-child) {
     margin-right: 50px;
-}
-
-.auth__link:hover,
-.auth__link:focus {
-    color: $accent-color;
 }
 
 .auth__link:hover .auth__icon,
