@@ -1,25 +1,3 @@
-@import "./utils/variables";
-
-@import "./base/normalize";
-@import "./base/fonts";
-@import "./utils/utils";
-
-@import "./components/auth";
-@import "./components/benefits-section";
-@import "./components/button";
-@import "./components/clientage-section";
-@import "./components/container";
-@import "./components/examples-section";
-@import "./components/footer";
-@import "./components/form";
-@import "./components/header";
-@import "./components/hero";
-@import "./components/logo";
-@import "./components/modal";
-@import "./components/net-icon";
-@import "./components/subscription";
-@import "./components/team-members";
-@import "./components/team-section";
-@import "./components/works";
-
-
+@import "./utils/main";
+@import "./base/main";
+@import "./components/main";
