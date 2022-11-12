@@ -1,69 +1,69 @@
-footer {
-    background-color: $footer-background-color;
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
+// footer {
+//     background-color: $footer-background-color;
+//     padding-top: 60px;
+//     padding-bottom: 60px;
+// }
 
-.footer.container {
-    display: flex;
-    align-items: baseline;
-}
+// .footer.container {
+//     display: flex;
+//     align-items: baseline;
+// }
 
 
-.address__legal,
-.address__mail,
-.address__phone {
-    text-decoration: none;
-    transition: color 250ms $time-distribution-function;
-}
+// .address__legal,
+// .address__mail,
+// .address__phone {
+//     text-decoration: none;
+//     transition: color 250ms $time-distribution-function;
+// }
 
-.address__item:not(:last-child) {
-    margin-bottom: 9px;
-}
+// .address__item:not(:last-child) {
+//     margin-bottom: 9px;
+// }
 
-.address__legal {
-    color: $white;
-    line-height: 1.71;
-    font-style: normal;
+// .address__legal {
+//     color: $white;
+//     line-height: 1.71;
+//     font-style: normal;
 
-    &:hover,
-    &:focus {
-    color: $accent-color;
-    }
-}
+//     &:hover,
+//     &:focus {
+//     color: $accent-color;
+//     }
+// }
 
-.address__mail {
-    color: $footer-text-color;
-    line-height: 1.71;
-    font-style: normal;
+// .address__mail {
+//     color: $footer-text-color;
+//     line-height: 1.71;
+//     font-style: normal;
     
-    &:hover,
-    &:focus {
-        color: $accent-color;
-    }
-}
+//     &:hover,
+//     &:focus {
+//         color: $accent-color;
+//     }
+// }
 
-.address__phone {
-    color: $footer-text-color;
-    line-height: 1.71;
-    font-style: normal;
+// .address__phone {
+//     color: $footer-text-color;
+//     line-height: 1.71;
+//     font-style: normal;
 
-    &:hover,
-    &:focus {
-        color: $accent-color;
-    }
-}
+//     &:hover,
+//     &:focus {
+//         color: $accent-color;
+//     }
+// }
 
-.footer__thumb {
-    display: flex;
-    margin-top: 12px;
-    margin-left: 70px;
-    justify-content: flex-start;
-}
+// .footer__thumb {
+//     display: flex;
+//     margin-top: 12px;
+//     margin-left: 70px;
+//     justify-content: flex-start;
+// }
 
-.footer__net-text {
-    font-weight: 700;
-    text-transform: uppercase;
-    color: $white;
-    margin-bottom: 20px;
-}
+// .footer__net-text {
+//     font-weight: 700;
+//     text-transform: uppercase;
+//     color: $white;
+//     margin-bottom: 20px;
+// }
