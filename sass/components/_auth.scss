@@ -1,5 +1,6 @@
 .auth {
-    // display: flex;
+    margin-bottom: 64px;
+        // display: flex;
     // list-style: none;
     // margin-left: auto;
     // align-content: center;
@@ -46,8 +47,8 @@
 //     margin-right: 50px;
 // }
 
-.auth__link:hover .auth__icon,
-.auth__link:focus .auth__icon {
-    fill: $accent-color;
-}
+// .auth__link:hover .auth__icon,
+// .auth__link:focus .auth__icon {
+//     fill: $accent-color;
+// }
 
