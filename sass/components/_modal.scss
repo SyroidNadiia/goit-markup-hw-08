@@ -5,9 +5,16 @@
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.2);
+    padding: 93px 15px 94px 15px;
+    overflow-y: scroll;
+    
     opacity: 1;
     transition: opacity 250ms $time-distribution-function,
         visibility 250ms $time-distribution-function;
+}
+
+.body.modal-open {
+    overflow: hidden;
 }
 
 .backdrop.is-hidden {
@@ -15,35 +22,47 @@
     pointer-events: none;
     visibility: hidden;
     
+    transform: scale(0.75);
     
+    
+    @media screen and (min-width: 768px) {
     & .modal {
         transform: translate(-50%, -50%) scale(0.75);
     }
 }
+}
 
 .modal {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(1);
-
-    width: 528px;
-    height: 581px;
     background-color: $white;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-        0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
-
-    transition: transform 250ms $time-distribution-function;
     padding: 40px;
+    width: 100%;
+    max-width: 450px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+            0px 2px 1px rgba(0, 0, 0, 0.2);
+    
+    transform: scale(1);
+    transition: transform 250ms $time-distribution-function;
+   
+    @media screen and (min-width: 768px) {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        max-width: 450px;
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    @media screen and (min-width: 1200px) {
+        max-width: 528px;
+
+        transform: translate(-50%, -50%) scale(1);
+    }
 }
 
 .button-modal {
-    position: absolute;
-    top: 8px;
-    right: 8px;
-
-    display: flex;
     border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: $white;
@@ -52,4 +71,13 @@
     height: 30px;
     width: 30px;
     cursor: pointer;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    display: flex;
+
+    &:hover .button-modal-close,
+    &:focus .button-modal-close {
+        fill: $accent-color;
+    }
 }

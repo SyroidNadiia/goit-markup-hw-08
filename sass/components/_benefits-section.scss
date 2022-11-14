@@ -1,34 +1,70 @@
-// .benefits__title {
-//     color: $title-text-color;
-//     font-size: 14px;
-//     line-height: 1.14;
-//     text-transform: uppercase;
-//     margin-bottom: 10px;
-// }
+.benefits__title {
+    color: $title-text-color;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    margin-bottom: 10px;
 
-// .benefits__text {
-//     line-height: 1.71;
-// }
+    @media screen and (max-width: 767px) {
+        text-align: center;
+    }
+}
 
-// .benefits__list {
-//     list-style: none;
-//     display: flex;
-//     gap: 30px;
-//     padding: 0;
-// }
+.benefits__text {
+    line-height: 1.71;
+    
+    @media screen and (max-width: 767px) {
+            margin-bottom: 30px;
+        }
+}
 
-// .benefits__element {
-//     display: flex;
-//     min-width: 270px;
-//     min-height: 120px;
-//     border-radius: 4px;
-//     background-color: $secondary-background-color;
-//     justify-content: center;
-//     align-items: center;
-//     margin-bottom: 30px;
-// }
+.benefits__list {
+    list-style: none;
+    margin: 0;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    
+    @media screen and (max-width: 768px) {
+        max-width: 450px;
+    }
 
-// .benefits__icon {
-//     justify-content: center;
-//     align-items: center;
-// }
+    @media screen and (min-width: 768px) {
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+       
+    }
+}
+
+.benefits__item {
+    @media screen and (min-width: 768px) {
+        flex-basis: calc((100% - 30px) / 2);
+        max-width: 354px;
+       
+        }
+
+        @media screen and (min-width: 1200px) {
+        gap: 30px;
+        flex-basis: calc((100% - 90px) / 4);
+        max-width: 270px;
+    }
+    }
+
+.benefits__element {
+    display: flex;
+    min-width: 270px;
+    min-height: 120px;
+    border-radius: 4px;
+    background-color: $secondary-background-color;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.benefits__icon {
+    justify-content: center;
+    align-items: center;
+}
