@@ -12,11 +12,24 @@
 }
 
 .clientage__item {
-    padding: 16px 32px;
     border: 1px solid $clientage-background-color;
     border-radius: 4px;
-    max-width: 170px;
     
+    @media screen and (max-width: 767px) {
+        width: 210px;
+        padding: 16px 52px;
+    }
+    
+    @media screen and (min-width: 768px) {
+        width: 226px;
+        padding: 16px 60px;
+    }
+    
+    @media screen and (min-width: 1200px) {
+        width: 170px;
+        padding: 16px 32px;
+    }
+        
     &:hover,
     &:focus {
         border: 1px solid $accent-color;
