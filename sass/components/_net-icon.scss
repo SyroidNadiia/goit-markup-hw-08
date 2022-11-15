@@ -1,58 +1,64 @@
-// .net__list {
-//     list-style: none;
-//     display: flex;
-//     justify-content: center;
-//     gap: 10px;
-//     margin-bottom: 30px;
-//     padding: 0px;
-// }
-
-// .net__item--footer {
-//     margin-right: 10px;
-// }
-
-// .net__link {
-//     display: flex;
-//     width: 44px;
-//     height: 44px;
-//     display: flex;
-//     background-color: $white;
-//     border-radius: 50%;
-//     justify-content: center;
-//     align-items: center;
-//     fill: $clientage-background-color;
-
-//     transition: background-color 250ms $time-distribution-function;
+.net__list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 0 0 24px 0;
     
-//     &:hover,
-//     &:focus {
-//         background-color: $accent-color;
-//     }
-// }
+}
+
+@media screen and (max-width: 767px) {
+    .net__thumb {
+    margin-bottom: 30px;
+    }
+}
+
+.net__item--footer {
+    margin-right: 10px;
+}
+
+.net__link {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    background-color: $white;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    fill: $clientage-background-color;
+
+    transition: background-color 250ms $time-distribution-function;
+    
+    &:hover,
+    &:focus {
+        background-color: $accent-color;
+    }
+}
 
 
-// .net__link .net__icon {
-//     transition: fill 250ms $time-distribution-function;
-// }
+.net__link .net__icon {
+    transition: fill 250ms $time-distribution-function;
+}
 
-// .net__link:hover .net__icon,
-// .net__link:focus .net__icon {
-//     fill: $white;
-// }
+.net__link:hover .net__icon,
+.net__link:focus .net__icon {
+    fill: $white;
+}
 
-// .net-list--footer {
-//     display: flex;
-//     margin-bottom: 20px;
-//     padding: 0px;
-// }
+.net-list--footer {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0px;
+}
 
-// .net__link--footer {
-//     background-color: rgba(255, 255, 255, 0.1);
-//     border-radius: 50%;
-//     fill: $white;
+.net__link--footer {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    fill: $white;
 
-//     &:hover,
-//     &:focus {
-//     background-color: $accent-color;
-// }
-// }
+    &:hover,
+    &:focus {
+    background-color: $accent-color;
+}
+}

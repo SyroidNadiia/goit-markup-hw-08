@@ -19,9 +19,8 @@
 
 .header__menu {
     display: flex;
-        padding: 0;
-        margin: 0;
-        list-style: none;
+    padding: 0;
+    list-style: none;
 
     @media screen and (min-width: 768px) {
         display: flex;
@@ -87,10 +86,7 @@
 }
 
 .header__nav {
-    @media screen and (max-width: 767px) {
-        margin-bottom: 302px;
-    }
-    
+        
     @media screen and (min-width: 768px) {
         display: flex;
         align-items: center;
@@ -98,11 +94,7 @@
     }
 }
 
-.mobile-menu {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
+
 
 .mobile-menu .link {
     display: block;
@@ -165,9 +157,19 @@
 }
 
 .mobile-menu {
-    margin-bottom: auto;
     padding: 0;
-    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.mobile-menu__nav {
+    margin-bottom: auto;;
+}
+
+.header__nav {
+    padding: 0;
     list-style: none;
 }
 

@@ -74,8 +74,8 @@
       </button>
 
       <div class="mobile-menu">
-        <nav>
-          <ul class="header__nav list">
+        <nav class="mobile-menu__nav">
+          <ul class="header__nav">
             <li class="header__item">
               <a class="header__link header__link--current" href="">Студія</a>
             </li>
@@ -240,7 +240,19 @@
           <h2 class="team__title">Наша команда</h2>
           <ul class="team-members__list list">
             <li class="team-members__item">
-              <img src="./images/productdesigner.jpg" alt="Дизайнер продукту" width="270" />
+              <img
+                srcset="
+                  ./images/productdesigner-270.jpg 270w,
+                  ./images/productdesigner-354.jpg 354w,
+                  ./images/productdesigner-450.jpg 450w,
+                  ./images/productdesigner-540.jpg 540w,
+                  ./images/productdesigner-708.jpg 708w,
+                  ./images/productdesigner-900.jpg 900w
+                "
+                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (max-width: 767px) 450px, 100vw"
+                src="./images/productdesigner-270.jpg"
+                alt="Дизайнер продукту"
+              />
               <h3 class="team-members__title">Ігор Дем'яненко</h3>
               <p class="team-members__text" lang="en">Product Designer</p>
               <div class="net__thumb">
@@ -278,7 +290,19 @@
             </li>
 
             <li class="team-members__item">
-              <img src="./images/frontenddeveloper.jpg" alt="Розробник інтерфейсу" width="270" />
+              <img
+                srcset="
+                  ./images/frontenddeveloper-270.jpg 270w,
+                  ./images/frontenddeveloper-354.jpg 354w,
+                  ./images/frontenddeveloper-450.jpg 450w,
+                  ./images/frontenddeveloper-540.jpg 540w,
+                  ./images/frontenddeveloper-708.jpg 708w,
+                  ./images/frontenddeveloper-900.jpg 900w
+                "
+                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (max-width: 767px) 450px, 100vw"
+                src="./images/frontenddeveloper-270.jpg"
+                alt="Розробник інтерфейсу"
+              />
               <h3 class="team-members__title">Ольга Рєпіна</h3>
               <p class="team-members__text" lang="en">Frontend Developer</p>
               <div class="net__thumb">
@@ -316,7 +340,19 @@
             </li>
 
             <li class="team-members__item">
-              <img src="./images/marketing.jpg" alt="Маркетинг" width="270" />
+              <img
+                srcset="
+                  ./images/marketing-270.jpg 270w,
+                  ./images/marketing-354.jpg 354w,
+                  ./images/marketing-450.jpg 450w,
+                  ./images/marketing-540.jpg 540w,
+                  ./images/marketing-708.jpg 708w,
+                  ./images/marketing-900.jpg 900w
+                "
+                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (max-width: 767px) 450px, 100vw"
+                src="./images/marketing-270.jpg"
+                alt="Маркетинг"
+              />
               <h3 class="team-members__title">Микола Тарасов</h3>
               <p class="team-members__text" lang="en">Marketing</p>
               <div class="net__thumb">
@@ -355,9 +391,17 @@
 
             <li class="team-members__item">
               <img
-                src="./images/uidesigner.jpg"
+                srcset="
+                  ./images/uidesigner-270.jpg 270w,
+                  ./images/uidesigner-354.jpg 354w,
+                  ./images/uidesigner-450.jpg 450w,
+                  ./images/uidesigner-540.jpg 540w,
+                  ./images/uidesigner-708.jpg 708w,
+                  ./images/uidesigner-900.jpg 900w
+                "
+                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (max-width: 767px) 450px, 100vw"
+                src="./images/uidesigner-270.jpg"
                 alt="Дизайнер інтерфейсу користувача"
-                width="270"
               />
               <h3 class="team-members__title">Михайло Єрмаков</h3>
               <p class="team-members__text" lang="en">UI Designer</p>
