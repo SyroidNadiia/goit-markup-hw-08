@@ -344,7 +344,7 @@ summary {
   }
 }
 
-.examples__title {
+.team__title, .examples__title {
   color: #212121;
   font-size: 36px;
   line-height: 1.17;
@@ -993,6 +993,13 @@ img {
 }
 
 .menu-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   position: fixed;
   top: 0;
   left: 0;
@@ -1022,6 +1029,7 @@ img {
 }
 
 .mobile-menu {
+  margin-bottom: auto;
   padding: 0;
   margin: 0;
   list-style: none;
@@ -1260,4 +1268,8 @@ img {
 }
 .button-modal:hover .button-modal-close, .button-modal:focus .button-modal-close {
   fill: #2196f3;
+}
+
+.team {
+  background-color: #f5f4fa;
 }/*# sourceMappingURL=main.css.map */
