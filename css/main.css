@@ -344,16 +344,18 @@ summary {
   }
 }
 
-.team__title, .examples__title {
+.team__title, .examples__title, .clientage__title {
   color: #212121;
-  font-size: 36px;
-  line-height: 1.17;
+  font-size: 28px;
+  line-height: 1.18;
   text-align: center;
   margin-bottom: 30px;
 }
 @media screen and (min-width: 1200px) {
-  .team__title, .examples__title {
+  .team__title, .examples__title, .clientage__title {
+    font-size: 36px;
     margin-bottom: 50px;
+    line-height: 1.17;
   }
 }
 
@@ -624,6 +626,39 @@ img {
   .button--primary {
     min-width: 216px;
   }
+}
+
+.clientage__list {
+  list-style: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.clientage__item {
+  padding: 16px 32px;
+  border: 1px solid rgb(175, 177, 184);
+  border-radius: 4px;
+  max-width: 170px;
+}
+.clientage__item:hover, .clientage__item:focus {
+  border: 1px solid #2196f3;
+}
+
+.clientage__icon {
+  fill: rgb(175, 177, 184);
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.clientage__item:hover .clientage__icon, .clientage__item:focus .clientage__icon {
+  fill: #2196f3;
 }
 
 @media screen and (max-width: 1199px) {
