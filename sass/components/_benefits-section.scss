@@ -41,15 +41,12 @@
 
 .benefits__item {
     @media screen and (min-width: 768px) {
-        flex-basis: calc((100% - 30px) / 2);
-        // max-width: 354px;
-       
+        flex-basis: calc((100% - 30px) / 2);      
         }
 
         @media screen and (min-width: 1200px) {
         gap: 30px;
         flex-basis: calc((100% - 90px) / 4);
-        // max-width: 270px;
     }
     }
 

@@ -6,10 +6,10 @@
 .header__container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     @media screen and (max-width: 767px) {
         position: relative;
         min-height: 60px;
+        justify-content: space-between;
     }
 
     @media screen and (min-width: 768px) {
@@ -37,7 +37,7 @@
     font-size: 40px;
     line-height: 1.17;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: $title-text-color;
     text-decoration: none;
 
     @media screen and (min-width: 768px) {
@@ -72,7 +72,7 @@
     font-size: 18px;
     line-height: 1.22;
     letter-spacing: 0.02em;
-    color: #2196F3;
+    color: $accent-color;
     text-decoration: none;
 }
 
@@ -92,9 +92,11 @@
         align-items: center;
         margin-right: 90px;
     }
+
+    @media screen and (min-width: 1200px) {
+        margin-right: 305px;
 }
-
-
+}
 
 .mobile-menu .link {
     display: block;
@@ -102,6 +104,7 @@
     color: $white;
     text-decoration: none;
 }
+
 .menu-toggle {
     min-height: 40px;
     min-width: 40px;
@@ -153,7 +156,7 @@
     position: absolute;
     top: 16px;
     right: 16px;
-    color: #fff;
+    color: $white;
 }
 
 .mobile-menu {
@@ -168,15 +171,10 @@
     margin-bottom: auto;;
 }
 
-.header__nav {
-    padding: 0;
-    list-style: none;
-}
-
 .mobile-menu .link {
     display: block;
     padding: 10px;
-    color: #fff;
+    color: $white;
     text-decoration: none;
 }
 
