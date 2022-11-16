@@ -13,9 +13,19 @@
 }
 
 .works.list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
+      
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        flex-basis: calc((100% - 30px) / 2);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .works__item:not(:last-child) {
+        margin-bottom: 30px;
+    }
 }
 
 .works__thumb {
@@ -51,6 +61,10 @@
 .works__caption {
     background: $white;
     border: 1px solid rgb(238, 238, 238);
+
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+        max-width: 354px;
+    }
 }
 
 .works__title {

@@ -79,12 +79,15 @@ footer {
     }
 }
 
-@media screen and (min-width: 768px) {
    .footer__combine {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 60px;
-}
+    @media screen and (min-width: 768px) {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 60px;
+    }
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 0;
+    }
 }
 
 .footer__net-text {
