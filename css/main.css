@@ -874,11 +874,13 @@ footer {
     -ms-flex-pack: distribute;
         justify-content: space-around;
     margin-bottom: 60px;
+    gap: 10px;
   }
 }
 @media screen and (min-width: 1200px) {
   .footer__combine {
     margin-bottom: 0;
+    gap: 10px;
   }
 }
 
